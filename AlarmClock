@@ -42,6 +42,7 @@ void setup()  {
   pinMode(btnOK, INPUT_PULLUP);
   pinMode(btnMode, INPUT_PULLUP);
   pinMode(buzzer, OUTPUT);
+  pinMode(10, INPUT);
 
 
   lcd.init();         // initialize the LCD
@@ -105,13 +106,18 @@ void loop()  {
 }
 
 void alarm() {
-  clockDisplay();
-  lcd.noBacklight();
-  digitalWrite(buzzer, HIGH);
-  delay(300);
-  lcd.backlight();
-  digitalWrite(buzzer, LOW);
-  delay(200);
+  while(digitalRead(10)==LOW){
+    clockDisplay();
+    lcd.noBacklight();
+    digitalWrite(buzzer, HIGH);
+    delay(300);
+    lcd.backlight();
+    digitalWrite(buzzer, LOW);
+    delay(200);
+  }
+  while(digitalRead(10)==HIGH){
+    mode = 1;
+    }
 }
 
 
