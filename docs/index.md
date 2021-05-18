@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/SarunC/Clap-Timer/edit/mai
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### บทคัดย่อ
+  โครงงานนี้จัดทำขึ้นเพื่อใช้ aduino UNO r3 ควบคู่กับ lcd, Buzzer และ Switch โดยใช้ Switch 3 ตัวในการปรับเพิ่ม ลดเวลา เลือกเวลาในหน่วยชั่วโมง นาที และวินาทีตามลำดับ โดยใช้ arduino UNO r3 ในการประมวลผลเวลา และส่งเสียงแจ้งเตือนเมื่อครบกำหนดเวลา
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
