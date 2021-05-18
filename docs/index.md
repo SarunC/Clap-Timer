@@ -1,39 +1,15 @@
-## Welcome to GitHub Pages
+#### Welcome to Clap-Timer Web Pages
 
-You can use the [editor on GitHub](https://github.com/SarunC/Clap-Timer/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### บทคัดย่อ
+## บทคัดย่อ
   โครงงานนี้จัดทำขึ้นเพื่อใช้ aduino UNO r3 ควบคู่กับ lcd, Buzzer และ Switch โดยใช้ Switch 3 ตัวในการปรับเพิ่ม ลดเวลา เลือกเวลาในหน่วยชั่วโมง นาที และวินาทีตามลำดับ โดยใช้ arduino UNO r3 ในการประมวลผลเวลา และส่งเสียงแจ้งเตือนเมื่อครบกำหนดเวลา
-### Markdown
+  
+## อุปกรณ์
+1.arduino UNO r3            1 บอร์ด
+2.Switch                    3 ปุ่ม
+3.ตัวต้านทานขนาด 1k โอห์ม     3 ตัว
+4.Buzzer                    1 ตัว
+5.Sound Detection           1 ตัว
+6.จอ LCD                    1 จอ
+7.สายไฟผู้-ผู้                 21 เส้น
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SarunC/Clap-Timer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## วิธีใช้งาน
