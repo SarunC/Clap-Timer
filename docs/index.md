@@ -1,15 +1,15 @@
-#### Welcome to Clap-Timer Web Pages
+### Welcome to Clap-Timer Web Pages
 
 ## บทคัดย่อ
   โครงงานนี้จัดทำขึ้นเพื่อใช้ aduino UNO r3 ควบคู่กับ lcd, Buzzer และ Switch โดยใช้ Switch 3 ตัวในการปรับเพิ่ม ลดเวลา เลือกเวลาในหน่วยชั่วโมง นาที และวินาทีตามลำดับ โดยใช้ arduino UNO r3 ในการประมวลผลเวลา และส่งเสียงแจ้งเตือนเมื่อครบกำหนดเวลา
   
 ## อุปกรณ์
-1.arduino UNO r3            1 บอร์ด
-2.Switch                    3 ปุ่ม
-3.ตัวต้านทานขนาด 1k โอห์ม     3 ตัว
-4.Buzzer                    1 ตัว
-5.Sound Detection           1 ตัว
-6.จอ LCD                    1 จอ
-7.สายไฟผู้-ผู้                 21 เส้น
+<li>1.arduino UNO r3            1 บอร์ด</li>
+<li>2.Switch                    3 ปุ่ม</li>
+<li>3.ตัวต้านทานขนาด 1k โอห์ม     3 ตัว</li>
+<li>4.Buzzer                    1 ตัว</li>
+<li>5.Sound Detection           1 ตัว</li>
+<li>6.จอ LCD                    1 จอ</li>
+<li>7.สายไฟผู้-ผู้                 21 เส้น</li>
 
 ## วิธีใช้งาน
