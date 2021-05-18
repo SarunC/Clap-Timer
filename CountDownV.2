@@ -57,6 +57,7 @@ void setup(){
   pinMode(12, INPUT);
   pinMode(11, INPUT);
   pinMode(7, OUTPUT);
+  pinMode(8, INPUT);
   lcd.init();
   lcd.backlight();
   lcd.setCursor(3, 0);
@@ -123,7 +124,7 @@ void loop(){
   lcd.setCursor(0, 0);
   lcd.print("Set second");
   while(1){
-    if(digitalRead(11) == LOW){
+    if(digitalRead(11) == LOW || digitalRead(8) == LOW){
       break;
     }
     if(digitalRead(13)== LOW){
