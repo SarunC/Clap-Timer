@@ -1,7 +1,7 @@
 ### Welcome to Clap-Timer Web Pages
 
 ## บทคัดย่อ
-  โครงงานนี้จัดทำขึ้นเพื่อใช้ arduino UNO r3 ควบคู่กับ lcd, Buzzer และ Switch โดยใช้ Switch 3 ตัวในการปรับเพิ่ม ลดเวลา เลือกเวลาในหน่วยชั่วโมง นาที และวินาทีตามลำดับ โดยใช้ arduino UNO r3 ในการประมวลผลเวลา และส่งเสียงแจ้งเตือนเมื่อครบกำหนดเวลา
+  โครงงานนี้จัดทำขึ้นเพื่อใช้ arduino UNO r3 ควบคู่กับ lcd, Sound Detection, Buzzer และ Switch โดยใช้ Switch 3 ตัวในการปรับเพิ่ม ลดเวลา เลือกเวลาในหน่วยชั่วโมง นาที และวินาทีตามลำดับ โดยใช้ arduino UNO r3 ในการประมวลผลเวลา และส่งเสียงแจ้งเตือนเมื่อครบกำหนดเวลา
 <li><a href="https://youtu.be/Nf3xfWKadu4">Video</a></li>
 <li><a href="https://github.com/SarunC/Clap-Timer/blob/main/CountDownV.2">Source Code</a></li>
 <li><a href="https://drive.google.com/file/d/1Cg2BHcIfMqfMflw1gNuTcEL44DJkUHhX/view?fbclid=IwAR2VWaCDzTF6bJjaslAyK1OZUScplfYAfeZsnGJadVz7KcGbred3jZPXrNI">Poster PDF file</a></li>
